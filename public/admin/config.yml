@@ -2,6 +2,10 @@ backend:
   name: git-gateway
   branch: main
 
+# Important: This enables open registration
+# Remove this line if you want invite-only
+publish_mode: editorial_workflow  # Optional: adds draft/review workflow
+
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
