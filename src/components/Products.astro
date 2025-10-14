@@ -1,0 +1,33 @@
+---
+// src/components/Products.astro
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ProductFilter from './ProductFilter';
+
+const products = await getCollection('products');
+const sortedProducts = products.sort((a: CollectionEntry<'products'>, b: CollectionEntry<'products'>) => {
+  const dateA = new Date(a.data.publishDate);
+  const dateB = new Date(b.data.publishDate);
+  return dateB.getTime() - dateA.getTime();
+});
+---
+
+<section id="products" class="py-20 bg-gradient-to-b from-gray-50 to-white">
+  <div class="container mx-auto px-6">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-black mb-4">
+        Discover <span class="gradient-text">Innovative SMEs</span>
+      </h2>
+      <p class="text-2xl font-semibold text-gray-700 mb-4">
+        Explore the Best of Growing Businesses!
+      </p>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Our platform features a wide range of innovative products and services from SMEs who are ready to scale. 
+        Ready to connect? Choose your interested product and click the button to engage with the SME directly!
+      </p>
+    </div>
+
+    <!-- Product Filter & Grid -->
+    <ProductFilter client:load products={sortedProducts} />
+  </div>
+</section>

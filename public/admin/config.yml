@@ -1,0 +1,98 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# For local development
+local_backend: true
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+# Logo and site name
+site_url: https://promoplus.rollout.asia
+display_url: https://promoplus.rollout.asia
+logo_url: /logo.svg
+
+collections:
+  - name: "products"
+    label: "Products"
+    label_singular: "Product"
+    folder: "src/content/products"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "title"
+    format: "frontmatter"
+    extension: "md"
+    editor:
+      preview: true
+    fields:
+      - {
+          label: "Product Name",
+          name: "title",
+          widget: "string",
+          hint: "The name of your product or service"
+        }
+      
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["HR", "Marketing", "Finance", "Operations", "Technology"],
+          hint: "Select the most relevant category"
+        }
+      
+      - {
+          label: "Featured Image",
+          name: "image",
+          widget: "image",
+          hint: "Upload a high-quality product image (recommended: 1200x630px)"
+        }
+      
+      - {
+          label: "Short Description",
+          name: "description",
+          widget: "text",
+          hint: "A brief 1-2 sentence description (appears in product cards)"
+        }
+      
+      - {
+          label: "External Link",
+          name: "link",
+          widget: "string",
+          hint: "Full URL to product website (e.g., https://example.com)"
+        }
+      
+      - {
+          label: "Featured Product",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+          hint: "Featured products appear with a special badge"
+        }
+      
+      - {
+          label: "Publish Date",
+          name: "publishDate",
+          widget: "datetime",
+          default: "",
+          hint: "Product listing date (affects sorting)"
+        }
+      
+      - {
+          label: "Full Description",
+          name: "body",
+          widget: "markdown",
+          hint: "Detailed product information (supports markdown formatting)"
+        }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Contact Information"
+        name: "contact"
+        file: "src/content/settings/contact.json"
+        fields:
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Address", name: "address", widget: "text"}
+          - {label: "WhatsApp Link", name: "whatsapp", widget: "string"}
