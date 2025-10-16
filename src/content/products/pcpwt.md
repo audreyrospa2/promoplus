@@ -1,6 +1,6 @@
 ---
 title: PCPWT - Pan Chung Pat Wo Tong Wah Tor Oil
-category: Operations
+category: Health
 image: /uploads/底部-banner.png
 description: The best-selling traditional Chinese medicine oil.
 link: https://pcpwt.store
