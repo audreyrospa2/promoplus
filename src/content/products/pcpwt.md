@@ -28,4 +28,4 @@ In the production process, modern Chinese pharmaceutical manufacturing emphasize
 
 Through the implementation of these standards, the production of modern traditional Chinese medicine has not only improved efficiency and reduced costs, but also enhanced consumers' trust in traditional Chinese medicine and promoted the global promotion and application of traditional Chinese medicine.\
 \
-Contact: [wa.me/85294763311](http://wa.me/85294763311)
+(http://wa.me/85294763311)
