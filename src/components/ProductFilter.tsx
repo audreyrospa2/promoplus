@@ -20,7 +20,7 @@ export default function ProductFilter({ products }: ProductFilterProps) {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const categories = ['All', 'HR', 'Marketing', 'Finance', 'Operations', 'Technology'];
+  const categories = ['All', 'HR', 'Marketing', 'Finance', 'Operations', 'Technology', 'Health'];
 
   const filteredProducts = products.filter(product => {
     const matchesCategory = selectedCategory === 'All' || product.data.category === selectedCategory;
