@@ -1,62 +1,31 @@
 ---
-title: "PCPWT - People Central Portal Web Tool"
-category: "HR"
-image: "/uploads/ -5.jpg"
-description: "A comprehensive HR management system that streamlines employee management, attendance tracking, and workforce analytics for growing businesses."
-link: "https://pcpwt.rollout.asia"
+title: PCPWT - Pan Chung Pat Wo Tong Wah Tor Oil
+category: Operations
+image: /uploads/底部-banner.png
+description: A comprehensive HR management system that streamlines employee
+  management, attendance tracking, and workforce analytics for growing
+  businesses.
+link: https://pcpwt.store
 featured: true
 publishDate: 2025-01-15T00:00:00.000Z
 ---
-
 ## Overview
 
-PCPWT (People Central Portal Web Tool) is Rollout's flagship HR management solution designed specifically for growing SMEs. Our platform combines powerful features with an intuitive interface to help you manage your workforce efficiently.
+### The origin of the eight and allusions of the class hall
 
-## Key Features
+Mr. Liu Yaoming, the founder, studied martial arts as a young man. He was deeply instructed by Master Guan Dexing, a famous martial arts senior in Cantonese opera, and participated in the eight-year work of anti-Japanese rescue with Master Guan. With the experience accumulated in the treatment of knife injuries in the career of Cantonese opera martial arts, "Banzhong Bahetang (Hong Kong) Co., Ltd." was founded in 1941, which has developed from a small workshop into a limited company of a certain scale. Now "Emergency Huatuo Oil" of "Banzhong Bahetang" is in Hong Kong and many countries around the world. It is the best-selling traditional Chinese medicine oil.
 
-### Employee Management
-- Centralized employee database
-- Digital onboarding workflows
-- Document management system
-- Employee self-service portal
+#### Legendary Chinese Medical Art - drama martial arts medicine
 
-### Attendance & Leave
-- Real-time attendance tracking
-- Automated leave management
-- Shift scheduling
-- Mobile clock-in/out
+* Cantonese Opera
+* martial arts
+* Taoism
+* bruise
 
-### Payroll Integration
-- Seamless payroll processing
-- Tax compliance automation
-- Benefits management
-- Expense tracking
+#### Modern Chinese Pharmaceutical Manufacturing
 
-### Analytics & Reporting
-- Real-time workforce analytics
-- Customizable dashboards
-- Compliance reporting
-- Performance insights
+Modern traditional Chinese medicine manufacturing is an important field that combines traditional Chinese medicine with modern pharmaceutical technology. With the progress of science and technology, the production process of traditional Chinese medicine has gradually developed into standardization, standardization and automation to ensure the quality and safety of drugs. The manufacture of modern traditional Chinese medicine follows a series of international and domestic standards, including but not limited to the Quality Management Specification for Pharmaceutical Production (GMP), the national drug standards of the People's Republic of China (such as the Traditional Chinese Medicine Tablet Standard) and the relevant standards of the International Organization for Standardization (ISO).
 
-## Why Choose PCPWT?
+In the production process, modern Chinese pharmaceutical manufacturing emphasizes the source of raw materials, the control of manufacturing processes and the quality inspection of final products. According to the requirements of the Quality Management Specification for Drug Production (GMP), enterprises need to establish a perfect quality management system to ensure the traceability of each batch of drugs. In addition, products that meet the "Standards for Traditional Chinese Medicine Tablets" need to be strictly tested to ensure their efficacy and safety.
 
-**All-in-One Solution**: Everything you need to manage your people in one platform.
-
-**Easy to Use**: Intuitive interface that requires minimal training.
-
-**Scalable**: Grows with your business from 10 to 1000+ employees.
-
-**Secure**: Enterprise-grade security with data encryption and regular backups.
-
-**Local Support**: Hong Kong-based team providing support in English and Chinese.
-
-## Perfect For
-
-- SMEs with 10-500 employees
-- Companies looking to digitize HR processes
-- Businesses expanding rapidly
-- Organizations needing better workforce insights
-
-## Get Started Today
-
-Ready to transform your HR management? Contact our team for a personalized demo and see how PCPWT can help your business grow.
+Through the implementation of these standards, the production of modern traditional Chinese medicine has not only improved efficiency and reduced costs, but also enhanced consumers' trust in traditional Chinese medicine and promoted the global promotion and application of traditional Chinese medicine.
