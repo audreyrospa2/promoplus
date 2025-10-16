@@ -4,7 +4,7 @@ const products = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    category: z.enum(['HR', 'Marketing', 'Finance', 'Operations', 'Technology']),
+    category: z.enum(['HR', 'Marketing', 'Finance', 'Operations', 'Technology', 'Helath', 'Education']),
     image: z.string(),
     description: z.string(),
     link: z.string().url(),
