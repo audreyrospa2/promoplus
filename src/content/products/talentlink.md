@@ -1,7 +1,7 @@
 ---
 title: "TalentLink - Recruitment Solutions"
 category: "HR"
-image: "/uploads/talentlink-hero.jpg"
+image:  "/uploads/ -5.jpg"
 description: "End-to-end recruitment platform with applicant tracking, interview scheduling, and talent pipeline management for growing teams."
 link: "https://talentlink.rollout.asia"
 featured: false

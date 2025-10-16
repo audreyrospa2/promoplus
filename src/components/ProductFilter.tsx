@@ -57,7 +57,7 @@ export default function ProductFilter({ products }: ProductFilterProps) {
                   onClick={() => setSelectedCategory(cat)}
                   className={`w-full text-left px-4 py-2 rounded-lg transition-all ${
                     selectedCategory === cat
-                      ? 'bg-gradient-to-r from-purple-600 to-orange-500 text-white font-bold'
+                      ? 'bg-purple-500 text-white font-bold'
                       : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
                   }`}
                 >
@@ -108,7 +108,7 @@ export default function ProductFilter({ products }: ProductFilterProps) {
                 {/* Product Info */}
                 <div className="p-6">
                   <div className="mb-2">
-                    <span className="inline-block px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-semibold">
+                    <span className="inline-block px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-semibold">
                       {product.data.category}
                     </span>
                   </div>
@@ -132,7 +132,7 @@ export default function ProductFilter({ products }: ProductFilterProps) {
                       href={product.data.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-1 text-center py-2 bg-gradient-to-r from-purple-600 to-orange-500 text-white rounded-lg font-semibold hover:shadow-lg transition-all"
+                      className="flex-1 text-center py-2 bg-purple-600 text-white rounded-lg font-reguler hover:shadow-lg transition-all"
                     >
                       Visit Site
                     </a>

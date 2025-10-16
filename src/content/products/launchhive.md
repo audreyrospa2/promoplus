@@ -1,7 +1,7 @@
 ---
 title: "LaunchHive - Project Management"
 category: "Operations"
-image: "/uploads/launchhive-hero.jpg"
+image:  "/uploads/ -5.jpg"
 description: "Collaborative project management platform with task tracking, team coordination, and resource planning designed for growing businesses."
 link: "https://launchhive.rollout.asia"
 featured: false

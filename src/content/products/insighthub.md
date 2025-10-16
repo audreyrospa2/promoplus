@@ -1,7 +1,7 @@
 ---
 title: "InsightHub - Business Analytics"
 category: "Technology"
-image: "/uploads/insighthub-hero.jpg"
+image: "/uploads/ -5.jpg"
 description: "Transform data into insights with our business intelligence platform featuring customizable dashboards, automated reporting, and predictive analytics."
 link: "https://insighthub.rollout.asia"
 featured: true

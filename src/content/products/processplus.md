@@ -1,7 +1,7 @@
 ---
 title: "ProcessPlus - Workflow Automation"
 category: "Operations"
-image: "/uploads/processplus-hero.jpg"
+image:  "/uploads/ -5.jpg"
 description: "Streamline your business operations with intelligent workflow automation, approval systems, and process optimization tools."
 link: "https://processplus.rollout.asia"
 featured: true

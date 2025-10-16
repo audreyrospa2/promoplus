@@ -1,7 +1,7 @@
 ---
 title: "PCPWT - People Central Portal Web Tool"
 category: "HR"
-image: "/uploads/pcpwt-hero.jpg"
+image: "/uploads/ -5.jpg"
 description: "A comprehensive HR management system that streamlines employee management, attendance tracking, and workforce analytics for growing businesses."
 link: "https://pcpwt.rollout.asia"
 featured: true

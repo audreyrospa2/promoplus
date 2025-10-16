@@ -1,7 +1,7 @@
 ---
 title: "PeoplePortal - Employee Engagement"
 category: "HR"
-image: "/uploads/peopleportal-hero.jpg"
+image: "/uploads/ -5.jpg"
 description: "Build a connected workforce with our employee engagement platform featuring communication tools, recognition systems, and culture building features."
 link: "https://peopleportal.rollout.asia"
 featured: false
