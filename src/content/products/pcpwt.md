@@ -2,9 +2,7 @@
 title: PCPWT - Pan Chung Pat Wo Tong Wah Tor Oil
 category: Operations
 image: /uploads/底部-banner.png
-description: A comprehensive HR management system that streamlines employee
-  management, attendance tracking, and workforce analytics for growing
-  businesses.
+description: The best-selling traditional Chinese medicine oil.
 link: https://pcpwt.store
 featured: true
 publishDate: 2025-01-15T00:00:00.000Z
@@ -28,4 +26,6 @@ Modern traditional Chinese medicine manufacturing is an important field that com
 
 In the production process, modern Chinese pharmaceutical manufacturing emphasizes the source of raw materials, the control of manufacturing processes and the quality inspection of final products. According to the requirements of the Quality Management Specification for Drug Production (GMP), enterprises need to establish a perfect quality management system to ensure the traceability of each batch of drugs. In addition, products that meet the "Standards for Traditional Chinese Medicine Tablets" need to be strictly tested to ensure their efficacy and safety.
 
-Through the implementation of these standards, the production of modern traditional Chinese medicine has not only improved efficiency and reduced costs, but also enhanced consumers' trust in traditional Chinese medicine and promoted the global promotion and application of traditional Chinese medicine.
+Through the implementation of these standards, the production of modern traditional Chinese medicine has not only improved efficiency and reduced costs, but also enhanced consumers' trust in traditional Chinese medicine and promoted the global promotion and application of traditional Chinese medicine.\
+\
+Contact: [wa.me/85294763311](http://wa.me/85294763311)
