@@ -1,14 +1,16 @@
 ---
-title: "InsightHub - Business Analytics"
-category: "Technology"
-image: "/uploads/ -5.jpg"
-description: "Transform data into insights with our business intelligence platform featuring customizable dashboards, automated reporting, and predictive analytics."
-link: "https://insighthub.rollout.asia"
+title: InsightHub - Business Analytics
+category: Technology
+image: /uploads/ -5.jpg
+description: Transform data into insights with our business intelligence
+  platform featuring customizable dashboards, automated reporting, and
+  predictive analytics.
+link: https://insighthub.rollout.asia
 featured: true
 publishDate: 2024-12-15T00:00:00.000Z
 ---
 
-## Make Data-Driven Decisions
+## Make Data-Driven Decision
 
 InsightHub brings enterprise-level analytics to growing SMEs, making it easy to visualize data and uncover insights.
 
