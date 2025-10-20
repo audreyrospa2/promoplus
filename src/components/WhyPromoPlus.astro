@@ -1,77 +1,74 @@
 ---
 // src/components/WhyPromoPlus.astro
 ---
-
 <section id="about" class="py-20 bg-gradient-to-b from-white to-gray-50">
   <div class="container mx-auto px-6">
     <!-- Why PromoPlus -->
     <div class="max-w-4xl mx-auto text-center mb-20">
-      <h2 class="text-4xl md:text-5xl font-black mb-8">
+      <h2 class="text-h2 font-black mb-8">
         Why <span class="gradient-text">PromoPlus</span>?
       </h2>
-      
       <p class="text-lg text-gray-700 leading-relaxed mb-6">
-        Growing SMEs face unique challenges as they scale, from limited resources to navigating new opportunities. 
+        Growing SMEs face unique challenges as they scale, from limited resources to navigating new opportunities.
         At Rollout, we've built our reputation on helping businesses grow through cutting-edge technology.
       </p>
-      
       <p class="text-lg text-gray-700 leading-relaxed">
-        PromoPlus is here to help build the road out, providing tailored solutions that showcase your business 
+        PromoPlus is here to help build the road out, providing tailored solutions that showcase your business
         and connect you with key stakeholders like investors, government agencies and collaborators.
       </p>
     </div>
-
+    
     <!-- Who Are You Section -->
     <div class="mb-16">
-      <h3 class="text-3xl md:text-4xl font-black text-center mb-12">Who are you?</h3>
+      <h3 class="text-h3 font-black text-center mb-12">Who are you?</h3>
       
-      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        <!-- SMEs Card -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-          <div class="w-16 h-16 mx-auto mb-6 rounded-full gradient-bg flex items-center justify-center">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div class="grid md:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+       <!-- SMEs Card -->
+        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+          <div class="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 rounded-full gradient-bg flex items-center justify-center">
+            <svg class="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
             </svg>
           </div>
-          <h4 class="text-2xl font-bold mb-4 text-center">SMEs</h4>
-          <p class="text-gray-600 mb-6 text-center">
+          <h4 class="text-h5 font-bold mb-3 md:mb-4 text-center">SMEs</h4>
+          <p class="text-sm md:text-base text-gray-600 mb-4 md:mb-6 text-center">
             Expand your reach, attract new opportunities, and simplify your growth journey.
           </p>
-          <button class="w-full py-3 rounded-full bg-purple-600 text-white font-bold hover:bg-purple-700 transition-colors">
+          <a href="https://wa.me/85266625341" class="block w-full py-2 md:py-3 rounded-full bg-purple-600 text-white text-sm md:text-base font-bold hover:bg-purple-700 transition-colors text-center">
             Join our Network
-          </button>
+          </a>
         </div>
-
+        
         <!-- Governments Card -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-          <div class="w-16 h-16 mx-auto mb-6 rounded-full gradient-bg flex items-center justify-center">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+          <div class="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 rounded-full gradient-bg flex items-center justify-center">
+            <svg class="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
             </svg>
           </div>
-          <h4 class="text-2xl font-bold mb-4 text-center">Governments</h4>
-          <p class="text-gray-600 mb-6 text-center">
+          <h4 class="text-h5 font-bold mb-3 md:mb-4 text-center">Governments</h4>
+          <p class="text-sm md:text-base text-gray-600 mb-4 md:mb-6 text-center">
             Discover SMEs offering innovative products and services to address national and public needs.
           </p>
-          <button class="w-full py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-600 transition-colors">
+          <a href="#products" class="block w-full py-2 md:py-3 rounded-full bg-orange-500 text-white text-sm md:text-base font-bold hover:bg-orange-600 transition-colors text-center">
             Invite to Share
-          </button>
+          </a>
         </div>
-
+        
         <!-- Investors Card -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
-          <div class="w-16 h-16 mx-auto mb-6 rounded-full gradient-bg flex items-center justify-center">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="bg-white rounded-2xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2">
+          <div class="w-12 h-12 md:w-16 md:h-16 mx-auto mb-4 md:mb-6 rounded-full gradient-bg flex items-center justify-center">
+            <svg class="w-6 h-6 md:w-8 md:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
             </svg>
           </div>
-          <h4 class="text-2xl font-bold mb-4 text-center">Investors</h4>
-          <p class="text-gray-600 mb-6 text-center">
+          <h4 class="text-h5 font-bold mb-3 md:mb-4 text-center">Investors</h4>
+          <p class="text-sm md:text-base text-gray-600 mb-4 md:mb-6 text-center">
             Find high-potential businesses ready for investment and collaboration.
           </p>
-          <button class="w-full py-3 rounded-full bg-yellow-500 text-white font-bold hover:bg-yellow-600 transition-colors">
+          <a href="#contact" class="block w-full py-2 md:py-3 rounded-full bg-yellow-500 text-white text-sm md:text-base font-bold hover:bg-yellow-600 transition-colors text-center">
             Find potential partners
-          </button>
+          </a>
         </div>
       </div>
     </div>

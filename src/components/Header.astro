@@ -17,12 +17,12 @@
       
       <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center space-x-8">
-        <a href="#about" class="desktop-link text-white hover:text-purple-300 transition-colors font-medium">About</a>
-        <a href="#products" class="desktop-link text-white hover:text-purple-300 transition-colors font-medium">Products</a>
-        <a href="#contact" class="desktop-link text-white hover:text-purple-300 transition-colors font-medium">Contact</a>
-        <button class="px-6 py-2 rounded-full text-white font-medium hover:shadow-lg transition-shadow" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <a href="#about" class="desktop-link text-white hover:text-purple-500 transition-colors font-medium">About</a>
+        <a href="#products" class="desktop-link text-white hover:text-purple-500 transition-colors font-medium">Products</a>
+        <a href="#contact" class="desktop-link text-white hover:text-purple-500 transition-colors font-medium">Contact</a>
+        <a href="#contact" class="px-6 py-2 gradient-bg text-white rounded-full hover:bg-black transition-all transform hover:scale-105" >
           Book A Demo
-        </button>
+        </a>
       </div>
       
       <!-- Mobile Menu Button -->
@@ -33,15 +33,15 @@
       </button>
     </div>
     
-    <!-- Mobile Navigation -->
-    <div id="mobile-nav" class="hidden md:hidden mt-4 pb-4">
+     <!-- Mobile Navigation -->
+    <div id="mobile-nav" class="hidden md:hidden mt-4 pb-4 bg-white rounded-lg shadow-lg px-4 py-4">
       <div class="flex flex-col space-y-4">
-        <a href="#about" class="mobile-link text-white hover:text-purple-300 transition-colors font-medium">About</a>
-        <a href="#products" class="mobile-link text-white hover:text-purple-300 transition-colors font-medium">Products</a>
-        <a href="#contact" class="mobile-link text-white hover:text-purple-300 transition-colors font-medium">Contact</a>
-        <button class="px-6 py-2 rounded-full text-white font-medium w-full" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <a href="#about" class="mobile-link text-black hover:text-purple-600 transition-colors font-medium">About</a>
+        <a href="#products" class="mobile-link text-black hover:text-purple-600 transition-colors font-medium">Products</a>
+        <a href="#contact" class="mobile-link text-black hover:text-purple-600 transition-colors font-medium">Contact</a>
+        <a href="#contact" class="block px-6 py-2 rounded-full text-white font-medium w-full text-center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
           Book A Demo
-        </button>
+        </a>
       </div>
     </div>
   </nav>
@@ -130,7 +130,7 @@
           });
           
           mobileLinks.forEach(link => {
-            link.style.color = 'white';
+            link.style.color = 'black';
           });
         }
       }
